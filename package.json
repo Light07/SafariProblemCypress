@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "axios": "^0.21.1",
+    "axios-cookiejar-support": "^1.0.0",
+    "cypress": "^10.8.0",
+    "cypress-failed-log": "^2.10.0",
+    "cypress-log-to-output": "^1.1.2",
+    "ioredis": "^4.28.0",
+    "js-yaml": "^3.14.1",
+    "mocha": "5.2.0",
+    "mocha-junit-reporter": "^1.22.0",
+    "mocha-multi-reporters": "^1.1.7",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^4.0.0",
+    "mochawesome-report-generator": "^5.1.0",
+    "mysql": "^2.18.1",
+    "playwright-webkit": "^1.25.2",
+    "simple-git": "^2.31.0"
+  },
+  "scripts": {
+    "debug": "yarn cypress open"
+  }
+}
